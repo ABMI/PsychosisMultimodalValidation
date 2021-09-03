@@ -28,7 +28,7 @@ options(fftempdir = 'T:/fftemp')
 dbms <- 'dbms'
 user <- Sys.getenv("userID")
 pw <- Sys.getenv("userPW")
-server <- Sys.getenv('server17')
+server <- Sys.getenv('server')
 port <- 'port'
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
                                                                 server = server,
