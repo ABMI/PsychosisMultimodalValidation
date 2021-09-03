@@ -1,0 +1,33 @@
+Package: PsychosisMultimodalValidation
+Type: Package
+Title: Validation package for psychosis multi-modal prediction model
+Version: 0.0.3
+Date: 2021-09-03
+Author: Chungsoo Kim [cre,aut]
+        Dongyun Lee [aut]
+Maintainer: Chungsoo Kim <ted9219@ajou.ac.kr>
+Description: A description of the study
+License: Apache License 2.0
+Depends:
+  R (>= 3.3.0), 
+  DatabaseConnector (>= 1.11.4)
+Imports:
+  FeatureExtraction (>= 2.0.0),
+  SqlRender,
+  Cyclops (>= 1.2.2),
+  PatientLevelPrediction (>= 3.0.14),
+  ggplot2,
+  gridExtra,
+  ff,
+  ffbase (>= 0.12.1),
+  ParallelLogger,
+  OhdsiSharing,
+  dplyr,
+  KoNLP,
+  tm,
+  NLP,
+  topicmodels
+Suggests:
+  testthat
+NeedsCompilation: no
+RoxygenNote: 7.1.1
